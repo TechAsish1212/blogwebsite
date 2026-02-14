@@ -5,7 +5,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBH4BOtbsV9h_egQPW249DkU_pqB50FHkU",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "crixblog-55694.firebaseapp.com",
     projectId: "crixblog-55694",
     storageBucket: "crixblog-55694.firebasestorage.app",
